@@ -1,4 +1,4 @@
-class ClaseA{
+export class ClaseA{
     nombre!:string;
     contenido!:string
     constructor(params: Partial<ClaseA> = {}){
@@ -6,7 +6,7 @@ class ClaseA{
     }
 }
 
-class ClaseB{
+export class ClaseB{
     nombre?:string;
     contenido!:number;
     constructor(params: Partial<ClaseB> = {}){
