@@ -28,3 +28,12 @@ async function getAllClassB(){
     }
     return listClaseA;
 }
+
+function iWillReturnSomething(){
+    return new Promise((resolve, reject)=>{
+        setTimeout(() => {
+            resolve(20);
+            reject(20)
+        }, 5000);
+    })
+}

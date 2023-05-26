@@ -13,3 +13,9 @@ export function fillNetworkConfigs(): NetworkConfigType {
     }
     return listNetConfigs
 }
+
+let register:NetworkConfigType = {}
+register[1] = {
+    name:'name',
+    price:'adas'
+}
